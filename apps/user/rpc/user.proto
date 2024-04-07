@@ -63,7 +63,7 @@ message FindUserResp {
 }
 
 service User {
-  rpc Pind(Request) returns (Response);
+  rpc Ping(Request) returns (Response);
   rpc Login(LoginReq) returns (LoginResp);
   rpc Register(RegisterReq) returns (RegisterResp);
   rpc GetUserInfo(GetUserInfoReq) returns (GetUserInfoResp);
